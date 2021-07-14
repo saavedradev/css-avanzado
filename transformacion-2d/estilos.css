@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__div1{
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(orange, red);
+    border: 7px solid darkred;
+    transform: scaleX(2)
+}
+
+.container__div2{
+    margin-top: 50px;
+    background: linear-gradient(180deg ,blue, orange);
+    width: 200px;
+    height: 200px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+}
+
+@keyframes skew{
+    0%{
+        transform: skew(20deg, 20deg);
+    }
+    100%{
+        transform: skew(-20deg, -20deg);
+    }
+
+}

@@ -3,3 +3,39 @@
     flex-direction: column;
     align-items: center;
 }
+#degradado{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    background: linear-gradient(red, yellow, green 80%);
+}
+
+#degradado2{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    background: repeating-linear-gradient(red, yellow, green 10%);
+}
+
+#degradado3{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    background: radial-gradient(circle at top right, yellow, orange);
+}
+
+#degradado4{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    background: repeating-radial-gradient(circle, blue, cyan 15%);
+}
+
+#degradado5{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    background: repeating-linear-gradient(
+        180deg, yellow,yellow 10px,red 10px,red 20px
+    )
+}

@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fondo{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    /* background: url(gato.png) top left / 80px no-repeat; */
+    
+    /* background: url(balon.jpg) top /100px no-repeat,
+    url(balon2.jpg) bottom /100px no-repeat; */
+    
+    /* background: url(balon2.jpg);
+    background-size: contain; */
+
+    background: url(plato.png) center/180px no-repeat,
+    url(mesa.jpg) center/cover no-repeat;
+
+}
+
+#fondo2{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    background: url(gato.png) top left / 80px no-repeat; 
+}
+
+#fondo3{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    background: url(balon.jpg) top /100px no-repeat,
+    url(balon2.jpg) bottom /100px no-repeat; 
+}
+
+#fondo4{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    background: url(balon2.jpg);
+    background-size: contain; 
+}
+
+#fondo7{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    font-size: 24px;
+    background-color: mediumseagreen;
+    background-clip: content-box; /*Este estilo tiene diferencia con el padding*/
+
+}

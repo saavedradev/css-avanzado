@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    font-size: 30px;
+}
+
+.ejemplo1{
+    text-align: center;
+    background: red;
+}
+
+h1{
+    color: var(--titulo-color);
+}
+h2{
+    color: white;
+}
+
+:root{
+    --titulo-color: yellow;
+}
+
+.cursos{
+    --cursos-color: red;
+    --curso-fondo: yellow;
+
+}
+
+.saavedradev{
+    --borde: green;
+    display: inline-block;
+    border: 3px solid var(--borde);
+    padding: 12px;
+    border-radius: 10px;
+}
+.saavedradev:hover{
+    background: var(--curso-fondo);
+    color: var(--cursos-color);
+}

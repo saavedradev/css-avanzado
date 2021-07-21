@@ -3,3 +3,16 @@
     flex-direction: column;
     align-items: center;
 }
+.cuadro_de_contenido{
+    width: 80%;
+    border: 3px solid red;
+}
+img{
+    width: 500px;
+    height: 340px;
+}
+
+.cuadro_de_contenido img{
+    width: 100%;
+    object-fit: fill;
+}

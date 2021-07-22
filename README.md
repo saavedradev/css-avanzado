@@ -9,3 +9,8 @@ video 19
 
 ## Media query Curso de CSS AVANZADO 🔥 MEDIA QUERIES
 Es una función de css3 que hace que una página web adapte su diseño a diferentes tamaños de pantalla o diferentes medios
+
+## Unidades relativas
+Las unidades relativas dependen de algún otro factor(resolución, ya que son muy flexibles)
+em, ex, ch, rem, %
+em toma como referencia el tamaño del navegador: 16px
